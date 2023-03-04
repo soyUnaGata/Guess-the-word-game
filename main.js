@@ -17,7 +17,6 @@ function getRandomTitle(titlesOfMovies) {
     const rand = Math.floor(Math.random() * titlesOfMovies.length);
     return titlesOfMovies[rand];
 }
-console.log(word)
 
 alphabet.split(',').forEach(function (element){
     const letter = document.createElement('div');
@@ -99,5 +98,4 @@ function renderLoseScreen(){
     mainKeyboard.style.display = 'none';
     main.classList.add('water')
     main.style.backgroundImage = 'url(/img/rainbow.gif)'
-
 }
